@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 10
+  username: boti
+  password:
+  host: localhost
+  port: 5432
+
+development:
+  <<: *default
+  database: checker_development
+
+production:
+  <<: *default
+  database: checker_production
+
+test:
+  <<: *default
+  database: checker_test

@@ -1,0 +1,2270 @@
+.row
+  .col-md-1 .col-md-1
+  .col-md-1 .col-md-1
+  .col-md-1 .col-md-1
+  .col-md-1 .col-md-1
+  .col-md-1 .col-md-1
+  .col-md-1 .col-md-1
+  .col-md-1 .col-md-1
+  .col-md-1 .col-md-1
+  .col-md-1 .col-md-1
+  .col-md-1 .col-md-1
+  .col-md-1 .col-md-1
+  .col-md-1 .col-md-1
+.row
+  .col-md-8 .col-md-8
+  .col-md-4 .col-md-4
+.row
+  .col-md-4 .col-md-4
+  .col-md-4 .col-md-4
+  .col-md-4 .col-md-4
+.row
+  .col-md-6 .col-md-6
+  .col-md-6 .col-md-6
+
+.row
+  .col-xs-9 .col-xs-9
+  .col-xs-4
+    | \.col-xs-4
+    br>/
+    | Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.
+  .col-xs-6
+    | \.col-xs-6
+    br>/
+    | Subsequent columns continue along the new line.
+
+.row
+  .col-xs-6.col-sm-3 .col-xs-6 .col-sm-3
+  .col-xs-6.col-sm-3 .col-xs-6 .col-sm-3
+  /! Add the extra clearfix for only the required viewport
+  .clearfix.visible-xs-block
+  .col-xs-6.col-sm-3 .col-xs-6 .col-sm-3
+  .col-xs-6.col-sm-3 .col-xs-6 .col-sm-3
+
+.row
+  .col-md-4 .col-md-4
+  .col-md-4.col-md-offset-4 .col-md-4 .col-md-offset-4
+.row
+  .col-md-3.col-md-offset-3 .col-md-3 .col-md-offset-3
+  .col-md-3.col-md-offset-3 .col-md-3 .col-md-offset-3
+.row
+  .col-md-6.col-md-offset-3 .col-md-6 .col-md-offset-3
+
+.row
+  .col-sm-9
+    | Level 1: .col-sm-9
+    .row
+      .col-xs-8.col-sm-6
+        | Level 2: .col-xs-8 .col-sm-6
+      .col-xs-4.col-sm-6
+        | Level 2: .col-xs-4 .col-sm-6
+
+.row
+  .col-md-9.col-md-push-3 .col-md-9 .col-md-push-3
+  .col-md-3.col-md-pull-9 .col-md-3 .col-md-pull-9
+
+h1 h1. Bootstrap heading
+h2 h2. Bootstrap heading
+h3 h3. Bootstrap heading
+h4 h4. Bootstrap heading
+h5 h5. Bootstrap heading
+h6 h6. Bootstrap heading
+
+h1
+  | h1. Bootstrap heading
+  small Secondary text
+h2
+  | h2. Bootstrap heading
+  small Secondary text
+h3
+  | h3. Bootstrap heading
+  small Secondary text
+h4
+  | h4. Bootstrap heading
+  small Secondary text
+h5
+  | h5. Bootstrap heading
+  small Secondary text
+h6
+  | h6. Bootstrap heading
+  small Secondary text
+
+p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+p.lead Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+| You can use the mark tag to
+mark highlight
+| text.
+
+del This line of text is meant to be treated as deleted text.
+
+s This line of text is meant to be treated as no longer accurate.
+
+ins This line of text is meant to be treated as an addition to the document.
+
+u This line of text will render as underlined
+
+small This line of text is meant to be treated as fine print.
+
+strong rendered as bold text
+
+em rendered as italicized text
+
+p.text-left Left aligned text.
+p.text-center Center aligned text.
+p.text-right Right aligned text.
+p.text-justify Justified text. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+p.text-nowrap No wrap text.
+
+p.text-lowercase Lowercased text.
+p.text-uppercase Uppercased text.
+p.text-capitalize Capitalized text.
+
+abbr title="attribute" attr
+abbr title="HyperText Markup Language" class="initialism" HTML
+
+address
+  strong Twitter, Inc.
+  br/
+  | 795 Folsom Ave, Suite 600
+  br/
+  | San Francisco, CA 94107
+  br/
+  abbr title="Phone"  P:
+  | (123) 456-7890
+address
+  strong Full Name
+  br/
+  a href="mailto:#"  first.last@example.com
+
+blockquote
+  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+
+blockquote
+  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+  footer
+    | Someone famous in
+    cite title=("Source Title")  Source Title
+
+blockquote.blockquote-reverse
+  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+  footer
+    | Someone famous in
+    cite title=("Source Title")  Source Title
+
+dl
+  dt MAtrix
+  dd you know the movie
+  dt Cowboys
+  dd and chickens
+
+dl.dl-horizontal
+  dt MAtrix
+  dd you know the movie
+  dt Cowboys
+  dd and chickens
+
+| For example,
+code &lt;section&gt;
+| should be wrapped as inline.
+
+| To switch directories, type
+kbd cd
+| followed by the name of the directory.
+br/
+| To edit settings, press
+kbd
+  kbd ctrl
+  | +
+  kbd ,
+
+pre
+  preserve
+    | &lt;p&gt;Sample text here...&lt;/p&gt;
+         | asdsad
+         | &lt;p&gt;Sample text here...&lt;/p&gt;
+
+var y
+| \=
+var m
+var x
+| +
+var b
+
+samp This text is meant to be treated as sample output from a computer program.
+
+table.table
+  caption Optional table caption.
+  thead
+    tr
+      th #
+      th First Name
+      th Last Name
+      th Username
+  tbody
+    tr
+      th scope="row"  1
+      td Mark
+      td Otto
+      td @mdo
+    tr
+      th scope="row"  2
+      td Jacob
+      td Thornton
+      td @fat
+    tr
+      th scope="row"  3
+      td Larry
+      td the Bird
+      td @twitter
+
+table.table.table-striped
+  caption Optional table caption.
+  thead
+    tr
+      th #
+      th First Name
+      th Last Name
+      th Username
+  tbody
+    tr
+      th scope="row"  1
+      td Mark
+      td Otto
+      td @mdo
+    tr
+      th scope="row"  2
+      td Jacob
+      td Thornton
+      td @fat
+    tr
+      th scope="row"  3
+      td Larry
+      td the Bird
+      td @twitter
+
+
+table.table.table-bordered
+  caption Optional table caption.
+  thead
+    tr
+      th #
+      th First Name
+      th Last Name
+      th Username
+  tbody
+    tr
+      th scope="row"  1
+      td Mark
+      td Otto
+      td @mdo
+    tr
+      th scope="row"  2
+      td Jacob
+      td Thornton
+      td @fat
+    tr
+      th scope="row"  3
+      td Larry
+      td the Bird
+      td @twitter
+
+
+table.table.table-bordered.table-hover
+  caption Optional table caption.
+  thead
+    tr
+      th #
+      th First Name
+      th Last Name
+      th Username
+  tbody
+    tr
+      th scope="row"  1
+      td Mark
+      td Otto
+      td @mdo
+    tr
+      th scope="row"  2
+      td Jacob
+      td Thornton
+      td @fat
+    tr
+      th scope="row"  3
+      td Larry
+      td the Bird
+      td @twitter
+
+
+table.table.table-bordered.table-hover.table-condensed
+  caption Optional table caption.
+  thead
+    tr
+      th #
+      th First Name
+      th Last Name
+      th Username
+  tbody
+    tr
+      th scope="row"  1
+      td Mark
+      td Otto
+      td @mdo
+    tr
+      th scope="row"  2
+      td Jacob
+      td Thornton
+      td @fat
+    tr
+      th scope="row"  3
+      td Larry
+      td the Bird
+      td @twitter
+
+table.table
+  thead
+    tr
+      th #
+      th Column heading
+      th Column heading
+      th Column heading
+  tbody
+    tr.active
+      th scope="row"  1
+      td Column content
+      td Column content
+      td Column content
+    tr
+      th scope="row"  2
+      td Column content
+      td Column content
+      td Column content
+    tr.success
+      th scope="row"  3
+      td Column content
+      td Column content
+      td Column content
+    tr
+      th scope="row"  4
+      td Column content
+      td Column content
+      td Column content
+    tr.info
+      th scope="row"  5
+      td Column content
+      td Column content
+      td Column content
+    tr
+      th scope="row"  6
+      td Column content
+      td Column content
+      td Column content
+    tr.warning
+      th scope="row"  7
+      td Column content
+      td Column content
+      td Column content
+    tr
+      th scope="row"  8
+      td Column content
+      td Column content
+      td Column content
+    tr.danger
+      th scope="row"  9
+      td Column content
+      td Column content
+      td Column content
+
+.table-responsive
+  table.table
+    thead
+      tr
+        th #
+        th Column heading
+        th Column heading
+        th Column heading
+    tbody
+      tr.active
+        th scope="row"  1
+        td Column content
+        td Column content
+        td Column content
+      tr
+        th scope="row"  2
+        td Column content
+        td Column content
+        td Column content
+      tr.success
+        th scope="row"  3
+        td Column content
+        td Column content
+        td Column content
+      tr
+        th scope="row"  4
+        td Column content
+        td Column content
+        td Column content
+      tr.info
+        th scope="row"  5
+        td Column content
+        td Column content
+        td Column content
+      tr
+        th scope="row"  6
+        td Column content
+        td Column content
+        td Column content
+      tr.warning
+        th scope="row"  7
+        td Column content
+        td Column content
+        td Column content
+      tr
+        th scope="row"  8
+        td Column content
+        td Column content
+        td Column content
+      tr.danger
+        th scope="row"  9
+        td Column content
+        td Column content
+        td Column content
+
+form
+  .form-group
+    label for="exampleInputEmail1"  Email address
+    input#exampleInputEmail1.form-control placeholder=("Enter email") type="email" /
+  .form-group
+    label for="exampleInputPassword1"  Password
+    input#exampleInputPassword1.form-control placeholder="Password" type="password" /
+  .form-group
+    label for="exampleInputFile"  File input
+    input#exampleInputFile type="file" /
+    p.help-block Example block-level help text here.
+  .checkbox
+    label
+      input type="checkbox" /
+      | Check me out
+  button.btn.btn-default type="submit"  Submit
+
+form
+  .fieldset
+    legend Personal Data:
+    .form-group
+      label for="exampleInputEmail1"  Email address
+      input#exampleInputEmail1.form-control placeholder=("Enter email") type="email" /
+    .form-group
+      label for="exampleInputPassword1"  Password
+      input#exampleInputPassword1.form-control placeholder="Password" type="password" /
+  .fieldset
+    legend Files:
+  .form-group
+    label for="exampleInputFile"  File input
+    input#exampleInputFile type="file" /
+    p.help-block Example block-level help text here.
+  .checkbox
+    label
+      input type="checkbox" /
+      | Check me out
+  button.btn.btn-default type="submit"  Submit
+
+form.form-inline
+  .form-group
+    label for="exampleInputName2"  Name
+    input#exampleInputName2.form-control placeholder=("Jane Doe") type="text" /
+  .form-group
+    label for="exampleInputEmail2"  Email
+    input#exampleInputEmail2.form-control placeholder="jane.doe@example.com" type="email" /
+  button.btn.btn-default type="submit"  Send invitation
+
+form.form-inline
+  .form-group
+    label.sr-only for="exampleInputEmail3"  Email address
+    input#exampleInputEmail3.form-control placeholder=("Enter email") type="email" /
+  .form-group
+    label.sr-only for="exampleInputPassword3"  Password
+    input#exampleInputPassword3.form-control placeholder="Password" type="password" /
+  .checkbox
+    label
+      input type="checkbox" /
+      | Remember me
+  button.btn.btn-default type="submit"  Sign in
+
+form.form-inline
+  .form-group
+    label.sr-only for="exampleInputAmount"  Amount (in dollars)
+    .input-group
+      .input-group-addon $
+      input#exampleInputAmount.form-control placeholder="Amount" type="text" /
+      .input-group-addon .00
+  button.btn.btn-primary type="submit"  Transfer cash
+
+form.form-horizontal
+  .form-group
+    label.col-sm-2.control-label for="inputEmail3"  Email
+    .col-sm-10
+      input#inputEmail3.form-control placeholder="Email" type="email" /
+  .form-group
+    label.col-sm-2.control-label for="inputPassword3"  Password
+    .col-sm-10
+      input#inputPassword3.form-control placeholder="Password" type="password" /
+  .form-group
+    .col-sm-offset-2.col-sm-10
+      .checkbox
+        label
+          input type="checkbox" /
+          | Remember me
+  .form-group
+    .col-sm-offset-2.col-sm-10
+      button.btn.btn-default type="submit"  Sign in
+
+.checkbox
+  label
+    input type="checkbox" value="" /
+    | Option one is this and that&mdash;be sure to include why it's great
+.checkbox.disabled
+  label
+    input disabled="" type="checkbox" value="" /
+    | Option two is disabled
+.radio
+  label
+    input#optionsRadios1 checked="" name="optionsRadios" type="radio" value="option1" /
+    | Option one is this and that&mdash;be sure to include why it's great
+.radio
+  label
+    input#optionsRadios2 name="optionsRadios" type="radio" value="option2" /
+    | Option two can be something else and selecting it will deselect option one
+.radio.disabled
+  label
+    input#optionsRadios3 disabled="" name="optionsRadios" type="radio" value="option3" /
+    | Option three is disabled
+
+label.checkbox-inline
+  input#inlineCheckbox1 type="checkbox" value="option1" /
+  | 1
+label.checkbox-inline
+  input#inlineCheckbox2 type="checkbox" value="option2" /
+  | 2
+label.checkbox-inline
+  input#inlineCheckbox3 type="checkbox" value="option3" /
+  | 3
+label.radio-inline
+  input#inlineRadio1 name="inlineRadioOptions" type="radio" value="option1" /
+  | 1
+label.radio-inline
+  input#inlineRadio2 name="inlineRadioOptions" type="radio" value="option2" /
+  | 2
+label.radio-inline
+  input#inlineRadio3 name="inlineRadioOptions" type="radio" value="option3" /
+  | 3
+
+.checkbox
+  label
+    input#blankCheckbox aria-label="..." type="checkbox" value="option1" /
+.radio
+  label
+    input#blankRadio1 aria-label="..." name="blankRadio" type="radio" value="option1" /
+
+select.form-control
+  option 1
+  option 2
+  option 3
+  option 4
+  option 5
+
+form.form-horizontal
+  .form-group
+    label.col-sm-2.control-label Email
+    .col-sm-10
+      p.form-control-static email@example.com
+  .form-group
+    label.col-sm-2.control-label for="inputPassword"  Password
+    .col-sm-10
+      input#inputPassword.form-control placeholder="Password" type="password" /
+
+form.form-inline
+  .form-group
+    label.sr-only Email
+    p.form-control-static email@example.com
+  .form-group
+    label.sr-only for="inputPassword2"  Password
+    input#inputPassword2.form-control placeholder="Password" type="password" /
+  button.btn.btn-default type="submit"  Confirm identity
+
+input.form-control id="disabledInput" type="text" placeholder="Disabled input here..." disabled='true'
+
+form
+  fieldset disabled="" 
+    .form-group
+      label for="disabledTextInput"  Disabled input
+      input#disabledTextInput.form-control placeholder=("Disabled input") type="text" /
+    .form-group
+      label for="disabledSelect"  Disabled select menu
+      select#disabledSelect.form-control
+        option Disabled select
+    .checkbox
+      label
+        input type="checkbox" /
+        | Can't check this
+    button.btn.btn-primary type="submit"  Submit
+
+input class="form-control" type="text" placeholder="Readonly input here…" readonly='a'
+
+.form-group.has-success
+  label.control-label for="inputSuccess1"  Input with success
+  input#inputSuccess1.form-control type="text" /
+.form-group.has-warning
+  label.control-label for="inputWarning1"  Input with warning
+  input#inputWarning1.form-control type="text" /
+.form-group.has-error
+  label.control-label for="inputError1"  Input with error
+  input#inputError1.form-control type="text" /
+.has-success
+  .checkbox
+    label
+      input#checkboxSuccess type="checkbox" value="option1" /
+      | Checkbox with success
+.has-warning
+  .checkbox
+    label
+      input#checkboxWarning type="checkbox" value="option1" /
+      | Checkbox with warning
+.has-error
+  .checkbox
+    label
+      input#checkboxError type="checkbox" value="option1" /
+      | Checkbox with error
+
+.form-group.has-success.has-feedback
+  label.control-label for="inputSuccess2"  Input with success
+  input#inputSuccess2.form-control aria-describedby="inputSuccess2Status" type="text" /
+  span.glyphicon.glyphicon-ok.form-control-feedback aria-hidden="true" 
+  span#inputSuccess2Status.sr-only (success)
+.form-group.has-warning.has-feedback
+  label.control-label for="inputWarning2"  Input with warning
+  input#inputWarning2.form-control aria-describedby="inputWarning2Status" type="text" /
+  span.glyphicon.glyphicon-warning-sign.form-control-feedback aria-hidden="true" 
+  span#inputWarning2Status.sr-only (warning)
+.form-group.has-error.has-feedback
+  label.control-label for="inputError2"  Input with error
+  input#inputError2.form-control aria-describedby="inputError2Status" type="text" /
+  span.glyphicon.glyphicon-remove.form-control-feedback aria-hidden="true" 
+  span#inputError2Status.sr-only (error)
+.form-group.has-success.has-feedback
+  label.control-label for="inputGroupSuccess1"  Input group with success
+  .input-group
+    span.input-group-addon @
+    input#inputGroupSuccess1.form-control aria-describedby="inputGroupSuccess1Status" type="text" /
+  span.glyphicon.glyphicon-ok.form-control-feedback aria-hidden="true" 
+  span#inputGroupSuccess1Status.sr-only (success)
+
+form.form-horizontal
+  .form-group.has-success.has-feedback
+    label.control-label.col-sm-3 for="inputSuccess3"  Input with success
+    .col-sm-9
+      input#inputSuccess3.form-control aria-describedby="inputSuccess3Status" type="text" /
+      span.glyphicon.glyphicon-ok.form-control-feedback aria-hidden="true" 
+      span#inputSuccess3Status.sr-only (success)
+  .form-group.has-success.has-feedback
+    label.control-label.col-sm-3 for="inputGroupSuccess2"  Input group with success
+    .col-sm-9
+      .input-group
+        span.input-group-addon @
+        input#inputGroupSuccess2.form-control aria-describedby="inputGroupSuccess2Status" type="text" /
+      span.glyphicon.glyphicon-ok.form-control-feedback aria-hidden="true" 
+      span#inputGroupSuccess2Status.sr-only (success)
+
+input.form-control.input-lg placeholder=".input-lg" type="text" /
+input.form-control placeholder=("Default input") type="text" /
+input.form-control.input-sm placeholder=".input-sm" type="text" /
+select.form-control.input-lg ...
+select.form-control ...
+select.form-control.input-sm ...
+
+form.form-horizontal
+  .form-group.form-group-lg
+    label.col-sm-2.control-label for="formGroupInputLarge"  Large label
+    .col-sm-10
+      input#formGroupInputLarge.form-control placeholder=("Large input") type="text" /
+  .form-group.form-group-sm
+    label.col-sm-2.control-label for="formGroupInputSmall"  Small label
+    .col-sm-10
+      input#formGroupInputSmall.form-control placeholder=("Small input") type="text" /
+
+label.sr-only for="inputHelpBlock"  Input with help text
+input#inputHelpBlock.form-control aria-describedby="helpBlock" type="text" /
+| \...
+span#helpBlock.help-block A block of help text that breaks onto a new line and may extend beyond one line.
+
+p Buttons
+
+a.btn.btn-default href="#" role="button"  Link
+button.btn.btn-default type="submit"  Button
+input.btn.btn-default type="button" value="Input" /
+input.btn.btn-default type="submit" value="Submit" /
+
+/! Standard button
+button.btn.btn-default type="button"  Default
+/! Provides extra visual weight and identifies the primary action in a set of buttons
+button.btn.btn-primary type="button"  Primary
+/! Indicates a successful or positive action
+button.btn.btn-success type="button"  Success
+/! Contextual button for informational alert messages
+button.btn.btn-info type="button"  Info
+/! Indicates caution should be taken with this action
+button.btn.btn-warning type="button"  Warning
+/! Indicates a dangerous or potentially negative action
+button.btn.btn-danger type="button"  Danger
+/! Deemphasize a button by making it look like a link while maintaining button behavior
+button.btn.btn-link type="button"  Link
+
+p
+  button.btn.btn-primary.btn-lg type="button"  Large button
+  button.btn.btn-default.btn-lg type="button"  Large button
+p
+  button.btn.btn-primary type="button"  Default button
+  button.btn.btn-default type="button"  Default button
+p
+  button.btn.btn-primary.btn-sm type="button"  Small button
+  button.btn.btn-default.btn-sm type="button"  Small button
+p
+  button.btn.btn-primary.btn-xs type="button"  Extra small button
+  button.btn.btn-default.btn-xs type="button"  Extra small button
+
+button.btn.btn-primary.btn-lg.btn-block type="button"  Block level button
+button.btn.btn-default.btn-lg.btn-block type="button"  Block level button
+
+button.btn.btn-lg.btn-primary disabled="disabled" type="button"  Primary button
+button.btn.btn-default.btn-lg disabled="disabled" type="button"  Button
+button.btn.btn-primary.btn-lg.active type="button"  Primary button
+button.btn.btn-default.btn-lg.active type="button"  Button
+a.btn.btn-primary.btn-lg.disabled href="#" role="button"  Primary link
+a.btn.btn-default.btn-lg.disabled href="#" role="button"  Link
+
+p.text-muted egyik
+p.text-primary egyik
+p.text-success egyik
+p.text-info egyik
+p.text-warning egyik
+p.text-danger egyik
+
+p.bg-primary egyik s masik
+p.bg-success egyik s masik
+p.bg-info egyik s masik
+p.bg-warning egyik s masik
+p.bg-danger egyik s masik
+
+.center-block
+  button.btn.btn-primary.btn-lg.active type="button"  Primary 
+
+span class="glyphicon glyphicon-search" aria-hidden="true"
+span class="glyphicon glyphicon-trash" aria-hidden="true"
+
+button.btn.btn-default aria-label=("Left Align") type="button" 
+  span.glyphicon.glyphicon-align-left aria-hidden="true" 
+button.btn.btn-default.btn-lg type="button" 
+  span.glyphicon.glyphicon-star aria-hidden="true" 
+  | Star
+
+.btn-toolbar role="toolbar" 
+  button.btn.btn-default.btn-lg type="button" 
+    span.glyphicon.glyphicon-star aria-hidden="true" 
+    | Star
+  button.btn.btn-default type="button" 
+    span.glyphicon.glyphicon-star aria-hidden="true" 
+    | Star
+  button.btn.btn-default.btn-sm type="button" 
+    span.glyphicon.glyphicon-star aria-hidden="true" 
+    | Star
+  button.btn.btn-default.btn-xs type="button" 
+    span.glyphicon.glyphicon-star aria-hidden="true" 
+    | Star
+
+.alert.alert-danger role="alert" 
+  span.glyphicon.glyphicon-exclamation-sign aria-hidden="true" 
+  span.sr-only Error:
+  | Enter a valid email address
+
+.dropdown
+  button#dropdownMenu1.btn.btn-default.dropdown-toggle aria-expanded="true" data-toggle="dropdown" type="button" 
+    | Dropdown
+    span.caret
+  ul.dropdown-menu aria-labelledby="dropdownMenu1" role="menu" 
+    li role="presentation" 
+      a href="#" role="menuitem" tabindex="-1"  Action
+    li role="presentation" 
+      a href="#" role="menuitem" tabindex="-1"  Another action
+    li role="presentation" 
+      a href="#" role="menuitem" tabindex="-1"  Something else here
+    li role="presentation" 
+      a href="#" role="menuitem" tabindex="-1"  Separated link
+
+.dropdown
+  button#dropdownMenu1.btn.btn-default.dropdown-toggle aria-expanded="true" data-toggle="dropdown" type="button" 
+    | Dropdown
+    span.caret
+  ul.dropdown-menu.dropdown-menu-right aria-labelledby="dropdownMenu1" role="menu" 
+    li role="presentation" 
+      a href="#" role="menuitem" tabindex="-1"  Action
+    li role="presentation" 
+      a href="#" role="menuitem" tabindex="-1"  Another action
+    li role="presentation" 
+      a href="#" role="menuitem" tabindex="-1"  Something else here
+    li role="presentation" 
+      a href="#" role="menuitem" tabindex="-1"  Separated link
+
+.dropdown
+  button#dropdownMenu1.btn.btn-default.dropdown-toggle aria-expanded="true" data-toggle="dropdown" type="button" 
+    | Dropdown
+    span.caret
+  ul.dropdown-menu aria-labelledby="dropdownMenu1" role="menu" 
+    li role="presentation" class='dropdown-header' Header
+    li role="presentation" 
+      a href="#" role="menuitem" tabindex="-1"  Another action
+    li role="presentation" class='disabled'
+      a href="#" role="menuitem" tabindex="-1"  Something else here
+    li role="presentation" 
+      a href="#" role="menuitem" tabindex="-1"  Separated link
+
+
+.dropdown
+  button#dropdownMenu1.btn.btn-default.dropdown-toggle aria-expanded="true" data-toggle="dropdown" type="button" 
+    | Dropdown
+    span.caret
+  ul.dropdown-menu aria-labelledby="dropdownMenu1" role="menu" 
+    li role="presentation" class='dropdown-header' Header
+    li role="presentation" 
+      a href="#" role="menuitem" tabindex="-1"  Another action
+    li role="presentation" class='divider'
+    li role="presentation"
+      a href="#" role="menuitem" tabindex="-1"  Separated link
+
+.btn-group aria-label="..." role="group" 
+  button.btn.btn-default type="button"  Left
+  button.btn.btn-default type="button"  Middle
+  button.btn.btn-default type="button"  Right
+
+.bs-example data-example-id="simple-button-toolbar" 
+  .btn-toolbar aria-label=("Toolbar with button groups") role="toolbar" 
+    .btn-group aria-label=("First group") role="group" 
+      button.btn.btn-default type="button"  1
+      button.btn.btn-default type="button"  2
+      button.btn.btn-default type="button"  3
+      button.btn.btn-default type="button"  4
+    .btn-group aria-label=("Second group") role="group" 
+      button.btn.btn-default type="button"  5
+      button.btn.btn-default type="button"  6
+      button.btn.btn-default type="button"  7
+    .btn-group.btn-group-sm aria-label=("Third group") role="group" 
+      button.btn.btn-default type="button"  8
+      button.btn.btn-default type="button"  9
+
+.btn-group aria-label="..." role="group" 
+  button.btn.btn-default type="button"  1
+  button.btn.btn-default type="button"  2
+  .btn-group role="group" 
+    button.btn.btn-default.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+      | Dropdown
+      span.caret
+    ul.dropdown-menu role="menu" 
+      li
+        a href="#"  Dropdown link
+      li
+        a href="#"  Dropdown link
+
+.btn-group-vertical aria-label="..." role="group" 
+  button.btn.btn-default type="button"  1
+  button.btn.btn-default type="button"  2
+  .btn-group role="group" 
+    button.btn.btn-default.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+      | Dropdown
+      span.caret
+    ul.dropdown-menu role="menu" 
+      li
+        a href="#"  Dropdown link
+      li
+        a href="#"  Dropdown link
+
+.bs-example data-example-id="simple-justified-button-group" 
+  .btn-group.btn-group-justified aria-label=("Justified button group") role="group" 
+    a.btn.btn-default href="#" role="button"  Left
+    a.btn.btn-default href="#" role="button"  Middle
+    a.btn.btn-default href="#" role="button"  Right
+  br/
+  .btn-group.btn-group-justified aria-label=("Justified button group with nested dropdown") role="group" 
+    a.btn.btn-default href="#" role="button"  Left
+    a.btn.btn-default href="#" role="button"  Middle
+    .btn-group role="group" 
+      a.btn.btn-default.dropdown-toggle aria-expanded="false" data-toggle="dropdown" href="#" role="button" 
+        | Dropdown
+        span.caret
+      ul.dropdown-menu role="menu" 
+        li
+          a href="#"  Action
+        li
+          a href="#"  Another action
+        li
+          a href="#"  Something else here
+        li.divider
+        li
+          a href="#"  Separated link
+
+.btn-group.btn-group-justified aria-label="..." role="group" 
+  .btn-group role="group" 
+    button.btn.btn-default type="button"  Left
+  .btn-group role="group" 
+    button.btn.btn-default type="button"  Middle
+  .btn-group role="group" 
+    button.btn.btn-default type="button"  Right
+
+.bs-example data-example-id="single-button-dropdown" 
+  .btn-group
+    button.btn.btn-default.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+      | Default
+      span.caret
+    ul.dropdown-menu role="menu" 
+      li
+        a href="#"  Action
+      li
+        a href="#"  Another action
+      li
+        a href="#"  Something else here
+      li.divider
+      li
+        a href="#"  Separated link
+  /! /btn-group
+  .btn-group
+    button.btn.btn-primary.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+      | Primary
+      span.caret
+    ul.dropdown-menu role="menu" 
+      li
+        a href="#"  Action
+      li
+        a href="#"  Another action
+      li
+        a href="#"  Something else here
+      li.divider
+      li
+        a href="#"  Separated link
+  /! /btn-group
+  .btn-group
+    button.btn.btn-success.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+      | Success
+      span.caret
+    ul.dropdown-menu role="menu" 
+      li
+        a href="#"  Action
+      li
+        a href="#"  Another action
+      li
+        a href="#"  Something else here
+      li.divider
+      li
+        a href="#"  Separated link
+  /! /btn-group
+  .btn-group
+    button.btn.btn-info.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+      | Info
+      span.caret
+    ul.dropdown-menu role="menu" 
+      li
+        a href="#"  Action
+      li
+        a href="#"  Another action
+      li
+        a href="#"  Something else here
+      li.divider
+      li
+        a href="#"  Separated link
+  /! /btn-group
+  .btn-group
+    button.btn.btn-warning.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+      | Warning
+      span.caret
+    ul.dropdown-menu role="menu" 
+      li
+        a href="#"  Action
+      li
+        a href="#"  Another action
+      li
+        a href="#"  Something else here
+      li.divider
+      li
+        a href="#"  Separated link
+  /! /btn-group
+  .btn-group
+    button.btn.btn-danger.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+      | Danger
+      span.caret
+    ul.dropdown-menu role="menu" 
+      li
+        a href="#"  Action
+      li
+        a href="#"  Another action
+      li
+        a href="#"  Something else here
+      li.divider
+      li
+        a href="#"  Separated link
+  /! /btn-group
+
+.bs-example data-example-id="split-button-dropdown" 
+  .btn-group
+    button.btn.btn-default type="button"  Default
+    button.btn.btn-default.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+      span.caret
+      span.sr-only Toggle Dropdown
+    ul.dropdown-menu role="menu" 
+      li
+        a href="#"  Action
+      li
+        a href="#"  Another action
+      li
+        a href="#"  Something else here
+      li.divider
+      li
+        a href="#"  Separated link
+  /! /btn-group
+  .btn-group
+    button.btn.btn-primary type="button"  Primary
+    button.btn.btn-primary.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+      span.caret
+      span.sr-only Toggle Dropdown
+    ul.dropdown-menu role="menu" 
+      li
+        a href="#"  Action
+      li
+        a href="#"  Another action
+      li
+        a href="#"  Something else here
+      li.divider
+      li
+        a href="#"  Separated link
+  /! /btn-group
+  .btn-group
+    button.btn.btn-success type="button"  Success
+    button.btn.btn-success.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+      span.caret
+      span.sr-only Toggle Dropdown
+    ul.dropdown-menu role="menu" 
+      li
+        a href="#"  Action
+      li
+        a href="#"  Another action
+      li
+        a href="#"  Something else here
+      li.divider
+      li
+        a href="#"  Separated link
+  /! /btn-group
+  .btn-group
+    button.btn.btn-info type="button"  Info
+    button.btn.btn-info.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+      span.caret
+      span.sr-only Toggle Dropdown
+    ul.dropdown-menu role="menu" 
+      li
+        a href="#"  Action
+      li
+        a href="#"  Another action
+      li
+        a href="#"  Something else here
+      li.divider
+      li
+        a href="#"  Separated link
+  /! /btn-group
+  .btn-group
+    button.btn.btn-warning type="button"  Warning
+    button.btn.btn-warning.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+      span.caret
+      span.sr-only Toggle Dropdown
+    ul.dropdown-menu role="menu" 
+      li
+        a href="#"  Action
+      li
+        a href="#"  Another action
+      li
+        a href="#"  Something else here
+      li.divider
+      li
+        a href="#"  Separated link
+  /! /btn-group
+  .btn-group
+    button.btn.btn-danger type="button"  Danger
+    button.btn.btn-danger.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+      span.caret
+      span.sr-only Toggle Dropdown
+    ul.dropdown-menu role="menu" 
+      li
+        a href="#"  Action
+      li
+        a href="#"  Another action
+      li
+        a href="#"  Something else here
+      li.divider
+      li
+        a href="#"  Separated link
+  /! /btn-group
+
+.bs-example data-example-id="button-dropdown-sizing" 
+  .btn-toolbar role="toolbar" 
+    .btn-group
+      button.btn.btn-default.btn-lg.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+        | Large button
+        span.caret
+      ul.dropdown-menu role="menu" 
+        li
+          a href="#"  Action
+        li
+          a href="#"  Another action
+        li
+          a href="#"  Something else here
+        li.divider
+        li
+          a href="#"  Separated link
+    /! /btn-group
+  /! /btn-toolbar
+  .btn-toolbar role="toolbar" 
+    .btn-group
+      button.btn.btn-default.btn-sm.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+        | Small button
+        span.caret
+      ul.dropdown-menu role="menu" 
+        li
+          a href="#"  Action
+        li
+          a href="#"  Another action
+        li
+          a href="#"  Something else here
+        li.divider
+        li
+          a href="#"  Separated link
+    /! /btn-group
+  /! /btn-toolbar
+  .btn-toolbar role="toolbar" 
+    .btn-group
+      button.btn.btn-default.btn-xs.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+        | Extra small button
+        span.caret
+      ul.dropdown-menu role="menu" 
+        li
+          a href="#"  Action
+        li
+          a href="#"  Another action
+        li
+          a href="#"  Something else here
+        li.divider
+        li
+          a href="#"  Separated link
+    /! /btn-group
+  /! /btn-toolbar
+
+.bs-example data-example-id="button-dropdown-dropup" 
+  .btn-toolbar role="toolbar" 
+    .btn-group.dropup
+      button.btn.btn-default type="button"  Dropup
+      button.btn.btn-default.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+        span.caret
+        span.sr-only Toggle Dropdown
+      ul.dropdown-menu role="menu" 
+        li
+          a href="#"  Action
+        li
+          a href="#"  Another action
+        li
+          a href="#"  Something else here
+        li.divider
+        li
+          a href="#"  Separated link
+    /! /btn-group
+    .btn-group.dropup
+      button.btn.btn-primary type="button"  Right dropup
+      button.btn.btn-primary.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+        span.caret
+        span.sr-only Toggle Dropdown
+      ul.dropdown-menu.dropdown-menu-right role="menu" 
+        li
+          a href="#"  Action
+        li
+          a href="#"  Another action
+        li
+          a href="#"  Something else here
+        li.divider
+        li
+          a href="#"  Separated link
+    /! /btn-group
+
+form.bs-example.bs-example-form data-example-id="simple-input-groups" 
+  .input-group
+    span#basic-addon1.input-group-addon @
+    input.form-control aria-describedby="basic-addon1" placeholder="Username" type="text" /
+  br/
+  .input-group
+    input.form-control aria-describedby="basic-addon2" placeholder=("Recipient's username") type="text" /
+    span#basic-addon2.input-group-addon @example.com
+  br/
+  .input-group
+    span.input-group-addon $
+    input.form-control aria-label=("Amount (to the nearest dollar)") type="text" /
+    span.input-group-addon .00
+
+form.bs-example.bs-example-form data-example-id="input-group-sizing" 
+  .input-group.input-group-lg
+    span#sizing-addon1.input-group-addon @
+    input.form-control aria-describedby="sizing-addon1" placeholder="Username" type="text" /
+  br/
+  .input-group
+    span#sizing-addon2.input-group-addon @
+    input.form-control aria-describedby="sizing-addon2" placeholder="Username" type="text" /
+  br/
+  .input-group.input-group-sm
+    span#sizing-addon3.input-group-addon @
+    input.form-control aria-describedby="sizing-addon3" placeholder="Username" type="text" /
+
+form.bs-example.bs-example-form data-example-id="input-group-with-checkbox-radio" 
+  .row
+    .col-lg-6
+      .input-group
+        span.input-group-addon
+          input aria-label=("Checkbox for following text input") type="checkbox" /
+        input.form-control aria-label=("Text input with checkbox") type="text" /
+      /! /input-group
+    /! /.col-lg-6
+    .col-lg-6
+      .input-group
+        span.input-group-addon
+          input aria-label=("Radio button for following text input") type="radio" /
+        input.form-control aria-label=("Text input with radio button") type="text" /
+      /! /input-group
+    /! /.col-lg-6
+  /! /.row
+
+form.bs-example.bs-example-form data-example-id="input-group-with-button" 
+  .row
+    .col-lg-6
+      .input-group
+        span.input-group-btn
+          button.btn.btn-default type="button"  Go!
+        input.form-control placeholder=("Search for...") type="text" /
+      /! /input-group
+    /! /.col-lg-6
+    .col-lg-6
+      .input-group
+        input.form-control placeholder=("Search for...") type="text" /
+        span.input-group-btn
+          button.btn.btn-default type="button"  Go!
+      /! /input-group
+    /! /.col-lg-6
+  /! /.row
+
+form.bs-example.bs-example-form data-example-id="input-group-dropdowns" 
+  .row
+    .col-lg-6
+      .input-group
+        .input-group-btn
+          button.btn.btn-default.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+            | Action
+            span.caret
+          ul.dropdown-menu role="menu" 
+            li
+              a href="#"  Action
+            li
+              a href="#"  Another action
+            li
+              a href="#"  Something else here
+            li.divider
+            li
+              a href="#"  Separated link
+        /! /btn-group
+        input.form-control aria-label=("Text input with dropdown button") type="text" /
+      /! /input-group
+    /! /.col-lg-6
+    .col-lg-6
+      .input-group
+        input.form-control aria-label=("Text input with dropdown button") type="text" /
+        .input-group-btn
+          button.btn.btn-default.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+            | Action
+            span.caret
+          ul.dropdown-menu.dropdown-menu-right role="menu" 
+            li
+              a href="#"  Action
+            li
+              a href="#"  Another action
+            li
+              a href="#"  Something else here
+            li.divider
+            li
+              a href="#"  Separated link
+        /! /btn-group
+      /! /input-group
+    /! /.col-lg-6
+  /! /.row
+
+form.bs-example.bs-example-form data-example-id="input-group-segmented-buttons" 
+  .row
+    .col-lg-6
+      .input-group
+        .input-group-btn
+          button.btn.btn-default type="button"  Action
+          button.btn.btn-default.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+            span.caret
+            span.sr-only Toggle Dropdown
+          ul.dropdown-menu role="menu" 
+            li
+              a href="#"  Action
+            li
+              a href="#"  Another action
+            li
+              a href="#"  Something else here
+            li.divider
+            li
+              a href="#"  Separated link
+        input.form-control aria-label=("Text input with segmented button dropdown") type="text" /
+      /! /.input-group
+    /! /.col-lg-6
+    .col-lg-6
+      .input-group
+        input.form-control aria-label=("Text input with segmented button dropdown") type="text" /
+        .input-group-btn
+          button.btn.btn-default type="button"  Action
+          button.btn.btn-default.dropdown-toggle aria-expanded="false" data-toggle="dropdown" type="button" 
+            span.caret
+            span.sr-only Toggle Dropdown
+          ul.dropdown-menu.dropdown-menu-right role="menu" 
+            li
+              a href="#"  Action
+            li
+              a href="#"  Another action
+            li
+              a href="#"  Something else here
+            li.divider
+            li
+              a href="#"  Separated link
+      /! /.input-group
+    /! /.col-lg-6
+  /! /.row
+
+.bs-example data-example-id="simple-nav-tabs" 
+  ul.nav.nav-tabs
+    li.active role="presentation" 
+      a href="#"  Home
+    li role="presentation" 
+      a href="#"  Profile
+    li role="presentation" 
+      a href="#"  Messages
+
+.bs-example data-example-id="simple-nav-pills" 
+  ul.nav.nav-pills
+    li.active role="presentation" 
+      a href="#"  Home
+    li role="presentation" 
+      a href="#"  Profile
+    li role="presentation" 
+      a href="#"  Messages
+
+.bs-example data-example-id="simple-nav-stacked" 
+  ul.nav.nav-pills.nav-stacked style=("max-width: 300px;") 
+    li.active role="presentation" 
+      a href="#"  Home
+    li role="presentation" 
+      a href="#"  Profile
+    li role="presentation" 
+      a href="#"  Messages
+
+.bs-example data-example-id="simple-nav-justified" 
+  ul.nav.nav-tabs.nav-justified
+    li.active role="presentation" 
+      a href="#"  Home
+    li role="presentation" 
+      a href="#"  Profile
+    li role="presentation" 
+      a href="#"  Messages
+  br/
+  ul.nav.nav-pills.nav-justified
+    li.active role="presentation" 
+      a href="#"  Home
+    li role="presentation" 
+      a href="#"  Profile
+    li role="presentation" 
+      a href="#"  Messages
+
+.bs-example data-example-id="disabled-nav-link" 
+  ul.nav.nav-pills
+    li role="presentation" 
+      a href="#"  Clickable link
+    li role="presentation" 
+      a href="#"  Clickable link
+    li.disabled role="presentation" 
+      a href="#"  Disabled link
+
+.bs-example data-example-id="nav-tabs-with-dropdown" 
+  ul.nav.nav-tabs
+    li.active role="presentation" 
+      a href="#"  Home
+    li role="presentation" 
+      a href="#"  Help
+    li.dropdown role="presentation" 
+      a.dropdown-toggle aria-expanded="false" data-toggle="dropdown" href="#" role="button" 
+        | Dropdown
+        span.caret
+      ul.dropdown-menu role="menu" 
+        li
+          a href="#"  Action
+        li
+          a href="#"  Another action
+        li
+          a href="#"  Something else here
+        li.divider
+        li
+          a href="#"  Separated link
+
+.bs-example data-example-id="nav-pills-with-dropdown" 
+  ul.nav.nav-pills
+    li.active role="presentation" 
+      a href="#"  Home
+    li role="presentation" 
+      a href="#"  Help
+    li.dropdown role="presentation" 
+      a.dropdown-toggle aria-expanded="false" data-toggle="dropdown" href="#" role="button" 
+        | Dropdown
+        span.caret
+      ul.dropdown-menu role="menu" 
+        li
+          a href="#"  Action
+        li
+          a href="#"  Another action
+        li
+          a href="#"  Something else here
+        li.divider
+        li
+          a href="#"  Separated link
+
+.bs-example data-example-id="default-navbar" 
+  nav.navbar.navbar-default
+    .container-fluid
+      /! Brand and toggle get grouped for better mobile display
+      .navbar-header
+        button.navbar-toggle.collapsed data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button" 
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand href="#"  Brand
+      /! Collect the nav links, forms, and other content for toggling
+      #bs-example-navbar-collapse-1.collapse.navbar-collapse
+        ul.nav.navbar-nav
+          li.active
+            a href="#" 
+              | Link
+              span.sr-only (current)
+          li
+            a href="#"  Link
+          li.dropdown
+            a.dropdown-toggle aria-expanded="false" data-toggle="dropdown" href="#" role="button" 
+              | Dropdown
+              span.caret
+            ul.dropdown-menu role="menu" 
+              li
+                a href="#"  Action
+              li
+                a href="#"  Another action
+              li
+                a href="#"  Something else here
+              li.divider
+              li
+                a href="#"  Separated link
+              li.divider
+              li
+                a href="#"  One more separated link
+        form.navbar-form.navbar-left role="search" 
+          .form-group
+            input.form-control placeholder="Search" type="text" /
+          button.btn.btn-default type="submit"  Submit
+        ul.nav.navbar-nav.navbar-right
+          li
+            a href="#"  Link
+          li.dropdown
+            a.dropdown-toggle aria-expanded="false" data-toggle="dropdown" href="#" role="button" 
+              | Dropdown
+              span.caret
+            ul.dropdown-menu role="menu" 
+              li
+                a href="#"  Action
+              li
+                a href="#"  Another action
+              li
+                a href="#"  Something else here
+              li.divider
+              li
+                a href="#"  Separated link
+      /! /.navbar-collapse
+    /! /.container-fluid
+
+.bs-example data-example-id="navbar-with-image-brand" 
+  nav.navbar.navbar-default
+    .container-fluid
+      .navbar-header
+        a.navbar-brand href="#" 
+          img alt="Brand" height="20" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAA81BMVEX///9VPnxWPXxWPXxWPXxWPXxWPXxWPXz///9hSYT6+vuFc6BXPn37+vz8+/z9/f2LeqWMe6aOfqiTg6uXiK5bQ4BZQX9iS4VdRYFdRYJfSINuWI5vWY9xXJF0YJR3Y5Z4ZZd5ZZd6Z5h9apq0qcW1qsW1q8a6sMqpnLyrn76tocCvpMGwpMJoUoprVYxeRoJjS4abjLGilLemmbrDutDFvdLPx9nX0eDa1OLb1uPd1+Td2OXe2eXh3Ofj3+nk4Orl4evp5u7u7PLv7fPx7/T08vb08/f19Pf29Pj39vn6+fuEcZ9YP35aQn/8/P1ZQH5fR4PINAOdAAAAB3RSTlMAIWWOw/P002ipnAAAAPhJREFUeF6NldWOhEAUBRvtRsfdfd3d3e3/v2ZPmGSWZNPDqScqqaSBSy4CGJbtSi2ubRkiwXRkBo6ZdJIApeEwoWMIS1JYwuZCW7hc6ApJkgrr+T/eW1V9uKXS5I5GXAjW2VAV9KFfSfgJpk+w4yXhwoqwl5AIGwp4RPgdK3XNHD2ETYiwe6nUa18f5jYSxle4vulw7/EtoCdzvqkPv3bn7M0eYbc7xFPXzqCrRCgH0Hsm/IjgTSb04W0i7EGjz+xw+wR6oZ1MnJ9TWrtToEx+4QfcZJ5X6tnhw+nhvqebdVhZUJX/oFcKvaTotUcvUnY188ue/n38AunzPPE8yg7bAAAAAElFTkSuQmCC" width="20" /
+
+.bs-example data-example-id="navbar-form" 
+  nav.navbar.navbar-default
+    .container-fluid
+      .navbar-header
+        button.navbar-toggle.collapsed data-target="#bs-example-navbar-collapse-2" data-toggle="collapse" type="button" 
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand href="#"  Brand
+      #bs-example-navbar-collapse-2.collapse.navbar-collapse
+        form.navbar-form.navbar-left role="search" 
+          .form-group
+            input.form-control placeholder="Search" type="text" /
+          button.btn.btn-default type="submit"  Submit
+
+.bs-example data-example-id="navbar-button" 
+  nav.navbar.navbar-default
+    .container-fluid
+      .navbar-header
+        button.navbar-toggle.collapsed data-target="#bs-example-navbar-collapse-3" data-toggle="collapse" type="button" 
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand href="#"  Brand
+      #bs-example-navbar-collapse-3.collapse.navbar-collapse
+        button.btn.btn-default.navbar-btn type="button"  Sign in
+
+.bs-example data-example-id="navbar-text" 
+  nav.navbar.navbar-default
+    .container-fluid
+      .navbar-header
+        button.navbar-toggle.collapsed data-target="#bs-example-navbar-collapse-4" data-toggle="collapse" type="button" 
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand href="#"  Brand
+      #bs-example-navbar-collapse-4.collapse.navbar-collapse
+        p.navbar-text Signed in as Mark Otto
+
+.bs-example data-example-id="navbar-link" 
+  nav.navbar.navbar-default
+    .container-fluid
+      .navbar-header
+        button.navbar-toggle.collapsed data-target="#bs-example-navbar-collapse-5" data-toggle="collapse" type="button" 
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand href="#"  Brand
+      #bs-example-navbar-collapse-5.collapse.navbar-collapse
+        p.navbar-text.navbar-right
+          | Signed in as
+          a.navbar-link href="#"  Mark Otto
+
+.container-fluid
+  .navbar-header
+    button.navbar-toggle.collapsed data-target="#bs-example-navbar-collapse-6" data-toggle="collapse" type="button" 
+      span.sr-only Toggle navigation
+      span.icon-bar
+      span.icon-bar
+      span.icon-bar
+    a.navbar-brand href="#"  Brand
+  #bs-example-navbar-collapse-6.collapse.navbar-collapse
+    ul.nav.navbar-nav
+      li.active
+        a href="#"  Home
+      li
+        a href="#"  Link
+      li
+        a href="#"  Link
+  /! /.navbar-collapse
+
+.bs-example data-example-id="navbar-link" 
+  nav.navbar.navbar-inverse
+    .container-fluid
+      .navbar-header
+        button.navbar-toggle.collapsed data-target="#bs-example-navbar-collapse-5" data-toggle="collapse" type="button" 
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand href="#"  Brand
+      #bs-example-navbar-collapse-5.collapse.navbar-collapse
+        p.navbar-text.navbar-right
+          | Signed in as
+          a.navbar-link href="#"  Mark Otto
+
+.bs-example data-example-id="simple-breadcrumbs" 
+  ol.breadcrumb
+    li.active Home
+  ol.breadcrumb
+    li
+      a href="#"  Home
+    li.active Library
+  ol.breadcrumb style=("margin-bottom: 5px;") 
+    li
+      a href="#"  Home
+    li
+      a href="#"  Library
+    li.active Data
+
+.bs-example data-example-id="simple-pagination" 
+  nav
+    ul.pagination
+      li
+        a aria-label="Previous" href="#" 
+          span aria-hidden="true"  «
+      li
+        a href="#"  1
+      li
+        a href="#"  2
+      li
+        a href="#"  3
+      li
+        a href="#"  4
+      li
+        a href="#"  5
+      li
+        a aria-label="Next" href="#" 
+          span aria-hidden="true"  »
+
+.bs-example data-example-id="disabled-active-pagination" 
+  nav
+    ul.pagination
+      li.disabled
+        a aria-label="Previous" href="#" 
+          span aria-hidden="true"  «
+      li.active
+        a href="#" 
+          | 1
+          span.sr-only (current)
+      li
+        a href="#"  2
+      li
+        a href="#"  3
+      li
+        a href="#"  4
+      li
+        a href="#"  5
+      li
+        a aria-label="Next" href="#" 
+          span aria-hidden="true"  »
+
+.bs-example data-example-id="pagination-sizing" 
+  nav
+    ul.pagination.pagination-lg
+      li
+        a aria-label="Previous" href="#" 
+          span aria-hidden="true"  «
+      li
+        a href="#"  1
+      li
+        a href="#"  2
+      li
+        a href="#"  3
+      li
+        a href="#"  4
+      li
+        a href="#"  5
+      li
+        a aria-label="Next" href="#" 
+          span aria-hidden="true"  »
+  nav
+    ul.pagination
+      li
+        a aria-label="Previous" href="#" 
+          span aria-hidden="true"  «
+      li
+        a href="#"  1
+      li
+        a href="#"  2
+      li
+        a href="#"  3
+      li
+        a href="#"  4
+      li
+        a href="#"  5
+      li
+        a aria-label="Next" href="#" 
+          span aria-hidden="true"  »
+  nav
+    ul.pagination.pagination-sm
+      li
+        a aria-label="Previous" href="#" 
+          span aria-hidden="true"  «
+      li
+        a href="#"  1
+      li
+        a href="#"  2
+      li
+        a href="#"  3
+      li
+        a href="#"  4
+      li
+        a href="#"  5
+      li
+        a aria-label="Next" href="#" 
+          span aria-hidden="true"  »
+
+.bs-example data-example-id="simple-pager" 
+  nav
+    ul.pager
+      li
+        a href="#"  Previous
+      li
+        a href="#"  Next
+
+.bs-example data-example-id="aligned-pager-links" 
+  nav
+    ul.pager
+      li.previous
+        a href="#" 
+          span aria-hidden="true"  ←
+          | Older
+      li.next
+        a href="#" 
+          | Newer
+          span aria-hidden="true"  →
+
+.bs-example data-example-id="disabled-pager" 
+  nav
+    ul.pager
+      li.previous.disabled
+        a href="#" 
+          span aria-hidden="true"  ←
+          | Older
+      li.next
+        a href="#" 
+          | Newer
+          span aria-hidden="true"  →
+
+.bs-example data-example-id="labels-in-headings" 
+  h1
+    | Example heading
+    span.label.label-default New
+  h2
+    | Example heading
+    span.label.label-default New
+  h3a
+    | Example heading
+    span.label.label-default New
+  h4
+    | Example heading
+    span.label.label-default New
+  h5
+    | Example heading
+    span.label.label-default New
+  h6
+    | Example heading
+    span.label.label-default New
+
+.bs-example data-example-id="label-variants" 
+  span.label.label-default Default
+  span.label.label-primary Primary
+  span.label.label-success Success
+  span.label.label-info Info
+  span.label.label-warning Warning
+  span.label.label-danger Danger
+
+.bs-example data-example-id="simple-badges" 
+  a href="#" 
+    | Inbox
+    span.badge 42
+  br/
+  br/
+  button.btn.btn-primary type="button" 
+    | Messages
+    span.badge 4
+
+.bs-example data-example-id="badges-in-pills" 
+  ul.nav.nav-pills role="tablist" 
+    li.active role="presentation" 
+      a href="#" 
+        | Home
+        span.badge 42
+    li role="presentation" 
+      a href="#"  Profile
+    li role="presentation" 
+      a href="#" 
+        | Messages
+        span.badge 3
+
+.bs-example data-example-id="simple-jumbotron" 
+  .jumbotron
+    h1 Hello, world!
+    p This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+    p
+      a.btn.btn-primary.btn-lg href="#" role="button"  Learn more
+
+.bs-example data-example-id="simple-page-header" 
+  .page-header
+    h1
+      | Example page header
+      small Subtext for header
+
+.bs-example data-example-id="simple-thumbnails" 
+  .row
+    .col-xs-6.col-md-3
+      a.thumbnail href="#" 
+        img alt="100%x180" data-holder-rendered="true" data-src="holder.js/100%x180" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE3MSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjU5LjU2MjUiIHk9IjkwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTcxeDE4MDwvdGV4dD48L2c+PC9zdmc+" style=("height: 180px; width: 100%; display: block;") /
+    .col-xs-6.col-md-3
+      a.thumbnail href="#" 
+        img alt="100%x180" data-holder-rendered="true" data-src="holder.js/100%x180" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE3MSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjU5LjU2MjUiIHk9IjkwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTcxeDE4MDwvdGV4dD48L2c+PC9zdmc+" style=("height: 180px; width: 100%; display: block;") /
+    .col-xs-6.col-md-3
+      a.thumbnail href="#" 
+        img alt="100%x180" data-holder-rendered="true" data-src="holder.js/100%x180" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE3MSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjU5LjU2MjUiIHk9IjkwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTcxeDE4MDwvdGV4dD48L2c+PC9zdmc+" style=("height: 180px; width: 100%; display: block;") /
+    .col-xs-6.col-md-3
+      a.thumbnail href="#" 
+        img alt="100%x180" data-holder-rendered="true" data-src="holder.js/100%x180" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE3MSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjU5LjU2MjUiIHk9IjkwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTcxeDE4MDwvdGV4dD48L2c+PC9zdmc+" style=("height: 180px; width: 100%; display: block;") /
+
+.bs-example data-example-id="thumbnails-with-custom-content" 
+  .row
+    .col-sm-6.col-md-4
+      .thumbnail
+        img alt="100%x200" data-holder-rendered="true" data-src="holder.js/100%x200" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQxIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDI0MSAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMjQxIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjkxLjk2ODc1IiB5PSIxMDAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MTFwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj4yNDF4MjAwPC90ZXh0PjwvZz48L3N2Zz4=" style=("height: 200px; width: 100%; display: block;") /
+        .caption
+          h3 Thumbnail label
+          p Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+          p
+            a.btn.btn-primary href="#" role="button"  Button
+            a.btn.btn-default href="#" role="button"  Button
+    .col-sm-6.col-md-4
+      .thumbnail
+        img alt="100%x200" data-holder-rendered="true" data-src="holder.js/100%x200" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQxIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDI0MSAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMjQxIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjkxLjk2ODc1IiB5PSIxMDAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MTFwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj4yNDF4MjAwPC90ZXh0PjwvZz48L3N2Zz4=" style=("height: 200px; width: 100%; display: block;") /
+        .caption
+          h3 Thumbnail label
+          p Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+          p
+            a.btn.btn-primary href="#" role="button"  Button
+            a.btn.btn-default href="#" role="button"  Button
+    .col-sm-6.col-md-4
+      .thumbnail
+        img alt="100%x200" data-holder-rendered="true" data-src="holder.js/100%x200" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQxIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDI0MSAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMjQxIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjkxLjk2ODc1IiB5PSIxMDAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MTFwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj4yNDF4MjAwPC90ZXh0PjwvZz48L3N2Zz4=" style=("height: 200px; width: 100%; display: block;") /
+        .caption
+          h3 Thumbnail label
+          p Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+          p
+            a.btn.btn-primary href="#" role="button"  Button
+            a.btn.btn-default href="#" role="button"  Button
+
+.bs-example data-example-id="simple-alerts" 
+  .alert.alert-success role="alert" 
+    strong Well done!
+    | You successfully read this important alert message.
+  .alert.alert-info role="alert" 
+    strong Heads up!
+    | This alert needs your attention, but it's not super important.
+  .alert.alert-warning role="alert" 
+    strong Warning!
+    | Better check yourself, you're not looking too good.
+  .alert.alert-danger role="alert" 
+    strong Oh snap!
+    | Change a few things up and try submitting again.
+
+.bs-example data-example-id="dismissible-alert-css" 
+  .alert.alert-warning.alert-dismissible role="alert" 
+    button.close aria-label="Close" data-dismiss="alert" type="button" 
+      span aria-hidden="true"  ×
+    strong Warning!
+    | Better check yourself, you're not looking too good.
+
+.bs-example data-example-id="alerts-with-links" 
+  .alert.alert-success role="alert" 
+    strong Well done!
+    | You successfully read
+      a.alert-link href="#"  this important alert message
+  .alert.alert-info role="alert" 
+    strong Heads up!
+    | This
+      a.alert-link href="#"  alert needs your attention
+    | but it's not super important.
+  .alert.alert-warning role="alert" 
+    strong Warning!
+    | Better check yourself, you're
+      a.alert-link href="#"  not looking too good
+  .alert.alert-danger role="alert" 
+    strong Oh snap!
+    a.alert-link href="#"  Change a few things up
+    | and try submitting again.
+
+.bs-example data-example-id="simple-progress-bar" 
+  .progress
+    .progress-bar aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" role="progressbar" style=("width: 60%;") 
+      span.sr-only 60% Complete
+
+.bs-example data-example-id="progress-bar-with-label" 
+  .progress
+    .progress-bar aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" role="progressbar" style=("width: 60%;") 
+      | 60%
+
+.bs-example data-example-id="progress-bar-at-low-percentage" 
+  .progress
+    .progress-bar aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" role="progressbar" style=("min-width: 2em;") 
+      | 0%
+  .progress
+    .progress-bar aria-valuemax="100" aria-valuemin="0" aria-valuenow="2" role="progressbar" style=("min-width: 2em; width: 2%;") 
+      | 2%
+
+.bs-example data-example-id="contextual-progress-bar" 
+  .progress
+    .progress-bar.progress-bar-success aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar" style=("width: 40%") 
+      span.sr-only 40% Complete (success)
+  .progress
+    .progress-bar.progress-bar-info aria-valuemax="100" aria-valuemin="0" aria-valuenow="20" role="progressbar" style=("width: 20%") 
+      span.sr-only 20% Complete
+  .progress
+    .progress-bar.progress-bar-warning aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" role="progressbar" style=("width: 60%") 
+      span.sr-only 60% Complete (warning)
+  .progress
+    .progress-bar.progress-bar-danger aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" style=("width: 80%") 
+      span.sr-only 80% Complete (danger)
+
+.bs-example data-example-id="striped-progress-bar" 
+  .progress
+    .progress-bar.progress-bar-success.progress-bar-striped aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar" style=("width: 40%") 
+      span.sr-only 40% Complete (success)
+  .progress
+    .progress-bar.progress-bar-info.progress-bar-striped aria-valuemax="100" aria-valuemin="0" aria-valuenow="20" role="progressbar" style=("width: 20%") 
+      span.sr-only 20% Complete
+  .progress
+    .progress-bar.progress-bar-warning.progress-bar-striped aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" role="progressbar" style=("width: 60%") 
+      span.sr-only 60% Complete (warning)
+  .progress
+    .progress-bar.progress-bar-danger.progress-bar-striped aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" style=("width: 80%") 
+      span.sr-only 80% Complete (danger)
+
+.bs-example data-example-id="animated-progress-bar" 
+  .progress
+    .progress-bar.progress-bar-striped aria-valuemax="100" aria-valuemin="0" aria-valuenow="45" role="progressbar" style=("width: 45%") 
+      span.sr-only 45% Complete
+  button.btn.btn-default.bs-docs-activate-animated-progressbar aria-pressed="false" autocomplete="off" data-toggle="button" type="button"  Toggle animation
+
+.bs-example data-example-id="stacked-progress-bar" 
+  .progress
+    .progress-bar.progress-bar-success style=("width: 35%") 
+      span.sr-only 35% Complete (success)
+    .progress-bar.progress-bar-warning.progress-bar-striped style=("width: 20%") 
+      span.sr-only 20% Complete (warning)
+    .progress-bar.progress-bar-danger style=("width: 10%") 
+      span.sr-only 10% Complete (danger)
+
+.bs-example data-example-id="default-media" 
+  .media
+    .media-left
+      a href="#" 
+        img.media-object alt="64x64" data-holder-rendered="true" data-src="holder.js/64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEzLjQ2ODc1IiB5PSIzMiIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjY0eDY0PC90ZXh0PjwvZz48L3N2Zz4=" style=("width: 64px; height: 64px;") /
+    .media-body
+      h4.media-heading Media heading
+      | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+  .media
+    .media-left
+      a href="#" 
+        img.media-object alt="64x64" data-holder-rendered="true" data-src="holder.js/64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEzLjQ2ODc1IiB5PSIzMiIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjY0eDY0PC90ZXh0PjwvZz48L3N2Zz4=" style=("width: 64px; height: 64px;") /
+    .media-body
+      h4.media-heading Media heading
+      | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      .media
+        .media-left
+          a href="#" 
+            img.media-object alt="64x64" data-holder-rendered="true" data-src="holder.js/64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEzLjQ2ODc1IiB5PSIzMiIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjY0eDY0PC90ZXh0PjwvZz48L3N2Zz4=" style=("width: 64px; height: 64px;") /
+        .media-body
+          h4.media-heading Nested media heading
+          | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+  .media
+    .media-body
+      h4.media-heading Media heading
+      | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+    .media-right
+      a href="#" 
+        img.media-object alt="64x64" data-holder-rendered="true" data-src="holder.js/64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEzLjQ2ODc1IiB5PSIzMiIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjY0eDY0PC90ZXh0PjwvZz48L3N2Zz4=" style=("width: 64px; height: 64px;") /
+  .media
+    .media-left
+      a href="#" 
+        img.media-object alt="64x64" data-holder-rendered="true" data-src="holder.js/64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEzLjQ2ODc1IiB5PSIzMiIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjY0eDY0PC90ZXh0PjwvZz48L3N2Zz4=" style=("width: 64px; height: 64px;") /
+    .media-body
+      h4.media-heading Media heading
+      | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+    .media-right
+      a href="#" 
+        img.media-object alt="64x64" data-holder-rendered="true" data-src="holder.js/64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEzLjQ2ODc1IiB5PSIzMiIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjY0eDY0PC90ZXh0PjwvZz48L3N2Zz4=" style=("width: 64px; height: 64px;") /
+
+.bs-example data-example-id="media-alignment" 
+  .media
+    .media-left
+      a href="#" 
+        img.media-object alt="64x64" data-holder-rendered="true" data-src="holder.js/64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEzLjQ2ODc1IiB5PSIzMiIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjY0eDY0PC90ZXh0PjwvZz48L3N2Zz4=" style=("width: 64px; height: 64px;") /
+    .media-body
+      h4.media-heading Top aligned media
+      p Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      p Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+  .media
+    .media-left.media-middle
+      a href="#" 
+        img.media-object alt="64x64" data-holder-rendered="true" data-src="holder.js/64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEzLjQ2ODc1IiB5PSIzMiIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjY0eDY0PC90ZXh0PjwvZz48L3N2Zz4=" style=("width: 64px; height: 64px;") /
+    .media-body
+      h4.media-heading Middle aligned media
+      p Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      p Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+  .media
+    .media-left.media-bottom
+      a href="#" 
+        img.media-object alt="64x64" data-holder-rendered="true" data-src="holder.js/64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEzLjQ2ODc1IiB5PSIzMiIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjY0eDY0PC90ZXh0PjwvZz48L3N2Zz4=" style=("width: 64px; height: 64px;") /
+    .media-body
+      h4.media-heading Bottom aligned media
+      p Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      p Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+.bs-example data-example-id="media-list" 
+  ul.media-list
+    li.media
+      .media-left
+        a href="#" 
+          img.media-object alt="64x64" data-holder-rendered="true" data-src="holder.js/64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEzLjQ2ODc1IiB5PSIzMiIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjY0eDY0PC90ZXh0PjwvZz48L3N2Zz4=" style=("width: 64px; height: 64px;") /
+      .media-body
+        h4.media-heading Media heading
+        p Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+        /! Nested media object
+        .media
+          .media-left
+            a href="#" 
+              img.media-object alt="64x64" data-holder-rendered="true" data-src="holder.js/64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEzLjQ2ODc1IiB5PSIzMiIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjY0eDY0PC90ZXh0PjwvZz48L3N2Zz4=" style=("width: 64px; height: 64px;") /
+          .media-body
+            h4.media-heading Nested media heading
+            | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+            /! Nested media object
+            .media
+              .media-left
+                a href="#" 
+                  img.media-object alt="64x64" data-holder-rendered="true" data-src="holder.js/64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEzLjQ2ODc1IiB5PSIzMiIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjY0eDY0PC90ZXh0PjwvZz48L3N2Zz4=" style=("width: 64px; height: 64px;") /
+              .media-body
+                h4.media-heading Nested media heading
+                | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+        /! Nested media object
+        .media
+          .media-left
+            a href="#" 
+              img.media-object alt="64x64" data-holder-rendered="true" data-src="holder.js/64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEzLjQ2ODc1IiB5PSIzMiIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjY0eDY0PC90ZXh0PjwvZz48L3N2Zz4=" style=("width: 64px; height: 64px;") /
+          .media-body
+            h4.media-heading Nested media heading
+            | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+
+.bs-example data-example-id="simple-list-group" 
+  ul.list-group
+    li.list-group-item Cras justo odio
+    li.list-group-item Dapibus ac facilisis in
+    li.list-group-item Morbi leo risus
+    li.list-group-item Porta ac consectetur ac
+    li.list-group-item Vestibulum at eros
+
+.bs-example data-example-id="list-group-badges" 
+  ul.list-group
+    li.list-group-item
+      span.badge 14
+      | Cras justo odio
+    li.list-group-item
+      span.badge 2
+      | Dapibus ac facilisis in
+    li.list-group-item
+      span.badge 1
+      | Morbi leo risus
+
+.bs-example data-example-id="list-group-anchors" 
+  .list-group
+    a.list-group-item.active href="#" 
+      | Cras justo odio
+    a.list-group-item href="#"  Dapibus ac facilisis in
+    a.list-group-item href="#"  Morbi leo risus
+    a.list-group-item href="#"  Porta ac consectetur ac
+    a.list-group-item href="#"  Vestibulum at eros
+
+.bs-example data-example-id="list-group-disabled" 
+  .list-group
+    a.list-group-item.disabled href="#" 
+      | Cras justo odio
+    a.list-group-item href="#"  Dapibus ac facilisis in
+    a.list-group-item href="#"  Morbi leo risus
+    a.list-group-item href="#"  Porta ac consectetur ac
+    a.list-group-item href="#"  Vestibulum at eros
+
+.bs-example data-example-id="list-group-variants" 
+  .row
+    .col-sm-6
+      ul.list-group
+        li.list-group-item.list-group-item-success Dapibus ac facilisis in
+        li.list-group-item.list-group-item-info Cras sit amet nibh libero
+        li.list-group-item.list-group-item-warning Porta ac consectetur ac
+        li.list-group-item.list-group-item-danger Vestibulum at eros
+    .col-sm-6
+      .list-group
+        a.list-group-item.list-group-item-success href="#"  Dapibus ac facilisis in
+        a.list-group-item.list-group-item-info href="#"  Cras sit amet nibh libero
+        a.list-group-item.list-group-item-warning href="#"  Porta ac consectetur ac
+        a.list-group-item.list-group-item-danger href="#"  Vestibulum at eros
+
+.bs-example data-example-id="list-group-custom-content" 
+  .list-group
+    a.list-group-item.active href="#" 
+      h4.list-group-item-heading List group item heading
+      p.list-group-item-text Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+    a.list-group-item href="#" 
+      h4.list-group-item-heading List group item heading
+      p.list-group-item-text Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+    a.list-group-item href="#" 
+      h4.list-group-item-heading List group item heading
+      p.list-group-item-text Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+
+.bs-example data-example-id="simple-panel" 
+  .panel.panel-default
+    .panel-body
+      | Basic panel example
+
+.bs-example data-example-id="panel-with-heading" 
+  .panel.panel-default
+    .panel-heading Panel heading without title
+    .panel-body
+      | Panel content
+  .panel.panel-default
+    .panel-heading
+      h3.panel-title Panel title
+    .panel-body
+      | Panel content
+
+.bs-example data-example-id="panel-with-footer" 
+  .panel.panel-default
+    .panel-body
+      | Panel content
+    .panel-footer Panel footer
+
+.bs-example data-example-id="contextual-panels" 
+  .panel.panel-primary
+    .panel-heading
+      h3.panel-title Panel title
+    .panel-body
+      | Panel content
+  .panel.panel-success
+    .panel-heading
+      h3.panel-title Panel title
+    .panel-body
+      | Panel content
+  .panel.panel-info
+    .panel-heading
+      h3.panel-title Panel title
+    .panel-body
+      | Panel content
+  .panel.panel-warning
+    .panel-heading
+      h3.panel-title Panel title
+    .panel-body
+      | Panel content
+  .panel.panel-danger
+    .panel-heading
+      h3.panel-title Panel title
+    .panel-body
+      | Panel content
+
+.bs-example data-example-id="table-within-panel" 
+  .panel.panel-default
+    /! Default panel contents
+    .panel-heading Panel heading
+    .panel-body
+      p Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    /! Table
+    table.table
+      thead
+        tr
+          th #
+          th First Name
+          th Last Name
+          th Username
+      tbody
+        tr
+          th scope="row"  1
+          td Mark
+          td Otto
+          td @mdo
+        tr
+          th scope="row"  2
+          td Jacob
+          td Thornton
+          td @fat
+        tr
+          th scope="row"  3
+          td Larry
+          td the Bird
+          td @twitter
+
+.bs-example data-example-id="panel-without-body-with-table" 
+  .panel.panel-default
+    /! Default panel contents
+    .panel-heading Panel heading
+    /! Table
+    table.table
+      thead
+        tr
+          th #
+          th First Name
+          th Last Name
+          th Username
+      tbody
+        tr
+          th scope="row"  1
+          td Mark
+          td Otto
+          td @mdo
+        tr
+          th scope="row"  2
+          td Jacob
+          td Thornton
+          td @fat
+        tr
+          th scope="row"  3
+          td Larry
+          td the Bird
+          td @twitter
+
+.bs-example data-example-id="panel-with-list-group" 
+  .panel.panel-default
+    /! Default panel contents
+    .panel-heading Panel heading
+    .panel-body
+      p Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    /! List group
+    ul.list-group
+      li.list-group-item Cras justo odio
+      li.list-group-item Dapibus ac facilisis in
+      li.list-group-item Morbi leo risus
+      li.list-group-item Porta ac consectetur ac
+      li.list-group-item Vestibulum at eros
+
+.bs-example data-example-id="default-well" 
+  .well
+    | Look, I'm in a well!
+
+.bs-example data-example-id="large-well" 
+  .well.well-lg
+    | Look, I'm in a large well!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
